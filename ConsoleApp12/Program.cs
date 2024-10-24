@@ -81,6 +81,7 @@ namespace ConsoleApp12
         }
     }
 
+
     public class ApplicationContext:DbContext
     {
         public DbSet<User> Users { get; set; }
